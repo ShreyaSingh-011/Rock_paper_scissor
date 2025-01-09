@@ -1,0 +1,156 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image:url('bg.jpg') ;
+    
+}
+
+.header{
+    background-color:#1F2937;
+    height:100px; 
+    margin:auto;  
+}
+
+.header-content{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    color:rgb(245, 205, 199);
+    padding:20px;
+}
+.subhead{
+    padding:5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* score block */
+
+.score-blocks{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    margin:20px;
+    padding:12px;
+}
+
+.user,.Comp{
+    border:3px solid #1F2937;
+    border-radius: 15px;
+    padding:20px;
+    margin:50px;
+    height:auto;
+    width:80px;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.playerscore,.compscore,.name{
+    margin-bottom:20px;
+    
+}
+
+/* symbols */
+
+.symbols{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:80px;
+    margin-bottom: 100px;
+    
+}
+#rocksym,#papersym,#scissorsym{
+    font-size: 55px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #1F2937;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.rtext,.ptext,.stext{
+    font-size: 28px;
+    font-weight: bolder;
+    text-align:center;
+    margin:18px; 
+} 
+
+ .playagain-section{
+    display: flex;
+    justify-content:center;
+    
+}
+.btn{
+    border-radius: 18px;
+    border-color: 3px solid white;
+    padding:12px;
+    margin-bottom:10px;
+    font-weight: bold;
+    font-size:24px;
+    background-color:rgb(91, 146, 192);
+    color:white;
+} 
+
+.footer-content{
+    background:#1F2937;
+   height:80px;
+    
+
+}
+.content{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    padding:25px;
+   
+   
+}
+
+
+ 
+.finalResultwin{
+    background:rgb(2, 74, 16);
+    color:white;
+    font-weight: bold;
+    font-size:22px;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+.finalResultlose{
+    background:rgb(205, 52, 13);
+    color:white;
+    font-weight: bold;
+    font-size:22px;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+
+.result{
+    font-weight:bold;
+    font-size:26px;
+    margin:10px;
+    text-align:center;
+    padding:10px;
+}
+
+#rocksym:hover{
+    cursor:pointer;
+    border-color: aquamarine;
+}
+#papersym:hover{
+    cursor:pointer;
+    border-color: aquamarine;
+}
+#scissorsym:hover{
+    cursor:pointer;
+    border-color: aquamarine;
+}
+
+
